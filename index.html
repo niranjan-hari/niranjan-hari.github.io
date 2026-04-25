@@ -964,8 +964,8 @@ function sendEmail() {
   btn.textContent = 'Sending...';
 
   emailjs.send(
-    'YOUR_SERVICE_ID',     // ← replace
-    'YOUR_TEMPLATE_ID',    // ← replace
+    'service_xsmeot6',     // ← replace
+    'template_621gppx',    // ← replace
     { from_name: name, from_email: email, message: message, to_name: 'Niranjan' }
   ).then(() => {
     msg.textContent = '✓ Message sent! I\'ll get back to you soon.';
